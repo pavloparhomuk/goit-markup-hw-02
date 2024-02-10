@@ -127,7 +127,9 @@ color: #fff;
     text-align: center;
     color: #2e2f42;
 }
-
+.team-list-item {
+    background-color: #ffffff;
+}
 .team-list-text {
         font-weight: 400;
         font-size: 16px;
