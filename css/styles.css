@@ -10,9 +10,6 @@ a {
 ul,ol {
     list-style: none;
 }
-img {
-    display: block;
-}
 header {
     font-style: normal;
     background: #fff;
@@ -36,7 +33,11 @@ header {
     background-color: #fff;
 }
 .nav-link {
-    color: #2E2F42;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -137,9 +138,9 @@ color: #fff;
 }
 /* ===========Team Section=========== */
 /* ===========Portfolio Section=========== */
-.portfolio:hover,
-.portfolio:focus {
-    background-color:#FFFFFF
+.portfolio {
+    background: #FFF;
+        border: #e7e9fc;
 }
 .section-title {
         font-weight: 700;
