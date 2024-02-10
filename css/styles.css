@@ -13,6 +13,10 @@ ul,ol {
 img {
     display: block;
 }
+header {
+    font-style: normal;
+    background: #fff;
+}
 /* =========== Common styles =========== */
 /* =========== Page Header styles =========== */
 .logo-header {
@@ -28,13 +32,11 @@ img {
 .logo-header-part {
     color: #2e2f42;
 }
-
+.header-navigate {
+    background-color: #fff;
+}
 .nav-link {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    color: #2E2F42;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -77,6 +79,7 @@ background-color: #2e2f42;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -134,6 +137,10 @@ color: #fff;
 }
 /* ===========Team Section=========== */
 /* ===========Portfolio Section=========== */
+.portfolio:hover,
+.portfolio:focus {
+    background-color:#FFFFFF
+}
 .section-title {
         font-weight: 700;
         font-size: 36px;
@@ -166,7 +173,7 @@ color: #fff;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
