@@ -15,7 +15,7 @@ img {
 }
 /* =========== Common styles =========== */
 /* =========== Page Header styles =========== */
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -25,7 +25,7 @@ img {
         color: #4d5ae5;
 }
 
-.logo-part {
+.logo-header-part {
     color: #2e2f42;
 }
 
@@ -158,6 +158,27 @@ color: #fff;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
-
 /* ===========Portfolio Section=========== */
+.page-footer {
+    background-color: #2e2f42;
+}
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.logo-footer-part {
+    color: #f4f4fd;
+}
+.page-footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
