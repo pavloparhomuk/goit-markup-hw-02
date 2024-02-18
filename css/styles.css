@@ -105,8 +105,23 @@ address {
 }
 /* =========== Page Header styles =========== */
 /* =========== Hero Section styles =========== */
+.section {
+    padding: 120px;
+}
 .hero {
 background-color: #2e2f42;
+padding: 120px;
+}
+.hero-container {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.hero-section {
+    max-width: 1400;
+    padding: 188px 0; 
+margin: 0 auto;
 }
 .main-title {
     font-weight: 700;
@@ -115,6 +130,11 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     
 }
 
@@ -126,6 +146,14 @@ background-color: #2e2f42;
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    display: block;
+    border-radius: 4px;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+            padding: 16px 32px;
+                align-items: flex-start;
+                gap: 10px;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -134,12 +162,35 @@ color: #fff;
 }
 /* =========== Hero Section styles =========== */
  /* ===========Studio Section=========== */
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+.features-section {
+    padding: 120px;
+}
 .features-list-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.features-list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .features-list-text {
@@ -153,6 +204,10 @@ color: #fff;
 /* ===========Team Section=========== */
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.team-container {
+    border-top: none;
 }
 .section-title {
         font-weight: 700;
@@ -162,6 +217,7 @@ color: #fff;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
 
 .team-list-title {
@@ -172,8 +228,17 @@ color: #fff;
     text-align: center;
     color: #2e2f42;
 }
+.team-list {
+ display: flex;
+ gap: 24px;   
+}
 .team-list-item {
     background-color: #ffffff;
+    width: calc((100% - 72) / 4);
+}
+.team-list-img {
+  margin-right: auto;
+  margin-left: auto;  
 }
 .team-list-text {
         font-weight: 400;
@@ -188,6 +253,7 @@ color: #fff;
 .portfolio {
     background: #FFF;
         border: #e7e9fc;
+        padding: 120px 0 120px 0;
 }
 .section-title {
         font-weight: 700;
@@ -197,6 +263,24 @@ color: #fff;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+flex-wrap: wrap;
+gap: 24px;
+row-gap: 48px;
+}
+.portfolio-list-item {
+  width: calc((100% - 48) / 3);  
+}
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio-list-img {
+    margin-bottom: 32px;
 }
 .portfolio-list-title {
         font-weight: 500;
@@ -204,6 +288,7 @@ color: #fff;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -213,9 +298,10 @@ color: #fff;
         letter-spacing: 0.02em;
         color: #434455;
 }
-/* ===========Portfolio Section=========== */
+/* =========== Footer =========== */
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -225,6 +311,8 @@ color: #fff;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin: 0 0 16px;
 }
 
 .logo-footer-part {
@@ -236,4 +324,5 @@ color: #fff;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
