@@ -227,6 +227,7 @@ color: #fff;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team-list {
  display: flex;
@@ -234,7 +235,7 @@ color: #fff;
 }
 .team-list-item {
     background-color: #ffffff;
-    width: calc((100% - 72) / 4);
+    width: calccalc((100% - 3 * 24px) / 4);
     margin-right: 24px;
         border-radius: 0px 0px 4px 4px;
 }
