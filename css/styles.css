@@ -234,10 +234,10 @@ color: #fff;
  gap: 24px;   
 }
 .team-list-item {
-    background-color: #ffffff;
-    width: calc((100% - 3 * 24px) / 4);
-    margin-right: 24px;
-    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+        margin-right: 24px;
+        background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
 }
 .team-list-img {
   margin-right: auto;
