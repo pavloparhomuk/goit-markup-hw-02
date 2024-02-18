@@ -1,4 +1,8 @@
 /* =========== Common styles =========== */
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -9,13 +13,38 @@ a {
 }
 ul,ol {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 header {
     font-style: normal;
     background: #fff;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
 /* =========== Common styles =========== */
 /* =========== Page Header styles =========== */
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .logo-header {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -24,6 +53,7 @@ header {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .logo-header-part {
@@ -31,21 +61,36 @@ header {
 }
 .header-navigate {
     background-color: #fff;
+    display: flex;
+    align-items: center;
 }
-.nav-link {
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+}
+.header-nav-link {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;
 }
-.nav-link:hover,
-.nav-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 
+
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
