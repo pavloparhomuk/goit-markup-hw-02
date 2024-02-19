@@ -10,6 +10,7 @@ body {
 }
 a {
     text-decoration: none;
+display: inline-block;
 }
 ul,ol {
     list-style: none;
@@ -235,7 +236,7 @@ color: #fff;
 }
 .team-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
-        margin-right: 24px;
+        
         background-color: #FFFFFF;
         border-radius: 0px 0px 4px 4px;
 }
