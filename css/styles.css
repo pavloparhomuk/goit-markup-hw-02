@@ -247,7 +247,6 @@ color: #fff;
 .card-content {
     display: flex;
         width: 232px;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 8px;
@@ -292,9 +291,7 @@ row-gap: 48px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.portfolio-list-img {
-    margin-bottom: 32px;
-}
+
 .portfolio-list-title {
         font-weight: 500;
         font-size: 20px;
